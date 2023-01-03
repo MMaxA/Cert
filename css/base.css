@@ -29,4 +29,5 @@ body {
   background-image: url("/images/Back.jpg");
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
