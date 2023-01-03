@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Roboto-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/Roboto-Medium.ttf") format("ttf");
+}
+
+body {
+  font-size: calc(20px + 12 * (100vw / 1920));
+  font-weight: 500;
+  color: #121212;
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+.main {
+  font-family: "Roboto-Medium", "Arial", sans-serif;
+  display: flex;
+  max-width: 1920px;
+  height: 100vh;
+  margin: 0 auto;
+  background-image: url("/images/Back.jpg");
+  background-size: cover;
+  background-position: center;
+}
